@@ -2,6 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .digit {
@@ -11,4 +12,8 @@ body {
 
 .redDigit {
   color: red;
+}
+.digits {
+  width: 100%;
+  text-align: center;
 }
